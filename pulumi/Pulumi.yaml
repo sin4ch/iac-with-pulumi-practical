@@ -1,0 +1,11 @@
+name: iac-with-pulumi-practical
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+description: all my follow-along works in iac with pulumi
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: https://www.pulumi.com/ai/api/project/f57a1bd9-833d-4cab-92e7-8f81361c3f6f.zip
